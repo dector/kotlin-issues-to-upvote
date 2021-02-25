@@ -1,13 +1,23 @@
-# Hot :fire: and desired Kotlin issues
+# :fire: Hot, desired and long-awaited Kotlin-related issues that need your vote!
 
+:warning: _This list is community-driven and not affiliated with JetBrains._ :warning:
 
-## Public-private field
+_Do we miss something? Let us [know](https://github.com/dector/kotlin-issues-to-like/issues)._
 
-[KT-14663](https://youtrack.jetbrains.com/issue/KT-14663)
+---
 
-Allowing to expose field as immutable and keep it accessible as a mutable inside the class.
+## 
 
-**Now:**
+### Public-private field
+
+**ID**: [KT-14663](https://youtrack.jetbrains.com/issue/KT-14663)
+
+**Status**: N/A.
+
+**What?**: Allowing to expose field as immutable and keep it accessible as a mutable inside the class.
+
+**How we are doing this now?**
+
 ```kotlin
 class ViewModel {
 
@@ -21,7 +31,8 @@ class ViewModel {
 }
 ```
 
-**Will be:**
+**What do we want?**
+
 ```kotlin
 class ViewModel {
 
@@ -34,4 +45,3 @@ class ViewModel {
 
 }
 ```
-
