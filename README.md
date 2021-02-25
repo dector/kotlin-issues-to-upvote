@@ -6,7 +6,7 @@ _Do we miss something? Let us [know](https://github.com/dector/kotlin-issues-to-
 
 ---
 
-## 
+## [Readability]
 
 ### Public-private field
 
@@ -16,7 +16,7 @@ _Do we miss something? Let us [know](https://github.com/dector/kotlin-issues-to-
 
 **What?**: Allowing to expose field as immutable and keep it accessible as a mutable inside the class.
 
-**How we are doing this now?**
+**How are we doing this now?**
 
 ```kotlin
 class ViewModel {
