@@ -6,11 +6,11 @@ _Do we miss something? Let us [know](https://github.com/dector/kotlin-issues-to-
 
 ---
 
-## [Readability]
+## :eyes: [Readability]
 
 ### Public-private field
 
-**ID**: [KT-14663](https://youtrack.jetbrains.com/issue/KT-14663)
+**Issue**: [KT-14663](https://youtrack.jetbrains.com/issue/KT-14663)
 
 **Status**: N/A.
 
