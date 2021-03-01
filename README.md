@@ -48,9 +48,35 @@ class ViewModel {
 
 
 
+## :package: [Stdlib]
+
+
+
+### `toString()` with precision for numbers
+
+**Issue**: [KT-9374](https://youtrack.jetbrains.com/issue/KT-9374)
+
+**Status**: N/A.
+
+**What?**: Converting `Double`/`Float` to String with certain precision.
+
+**How are we doing this now?**
+
+```kotlin
+java.lang.String.format("%.2f", 3.141592)
+```
+
+**What do we want?**
+
+```kotlin
+3.141592.toString(precision = 2)
+```
+
+
+
 ## :steam_locomotive: [Performance]
 
-## `isSubtypeOf`/`isSupertypeOf` without reflection
+### `isSubtypeOf`/`isSupertypeOf` without reflection
 
 **Issue**: [KT-32956](https://youtrack.jetbrains.com/issue/KT-32956)
 
