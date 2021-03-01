@@ -48,13 +48,27 @@ class ViewModel {
 
 
 
+## :wrench: [Tools]
+
+
+
+### Language Server Protocol
+
+**Issue**: [KT-18286](https://youtrack.jetbrains.com/issue/KT-18286)
+
+**Status**: community-driven implementation is active and lives [here](https://github.com/fwcd/kotlin-language-server).
+
+**What?**: To extend Kotlin support in editors.
+
+
+
 ## :package: [Stdlib]
 
 
 
 ### `toString()` with precision for numbers
 
-**Issue**: [KT-9374](https://youtrack.jetbrains.com/issue/KT-9374)
+**Issue**: [KT-9374](https://youtrack.jetbrains.com/issue/KT-9374), similar: [KT-21644](https://youtrack.jetbrains.com/issue/KT-21644)
 
 **Status**: N/A.
 
