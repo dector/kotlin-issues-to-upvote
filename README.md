@@ -45,3 +45,16 @@ class ViewModel {
 
 }
 ```
+
+
+
+## :steam_locomotive: [Performance]
+
+## `isSubtypeOf`/`isSupertypeOf` without reflection
+
+**Issue**: [KT-32956](https://youtrack.jetbrains.com/issue/KT-32956)
+
+**Status**: N/A.
+
+Also this will work on non-JVM targets.
+
